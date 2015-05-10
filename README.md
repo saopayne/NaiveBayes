@@ -28,8 +28,8 @@ To train the utility, use the following command:
 
 e.g.
 
-    python bayes.py learn spam all_my_spam.txt 10000
-    python bayes.py learn ham inbox.txt 10000
+    python bayes.py learn spam ../train/spam0.txt 10
+    python bayes.py learn ham ../train/ham10.txt 10
 
 Classify
 
@@ -38,5 +38,5 @@ Classify
     bayes.py classify <file> <doctype> <doctype>
 e.g. 
 
-    python bayes.py classify sampletext.txt spam ham
+    python bayes.py classify ../train/sampletext.txt spam ham
     > Probability that document is spam rather than ham is 1.00
