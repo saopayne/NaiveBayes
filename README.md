@@ -24,11 +24,14 @@ To test::
 
    python bayes.py learn <doctype> <file> <count>
 
-   e.g. python bayes.py learn spam spam0.txt 1
-        python bayes.py learn ham ham10.txt 2
+   e.g. - python bayes.py learn spam spam0.txt 1
+   
+        - python bayes.py learn ham ham10.txt 2
 
 3. CLASSIFY A FILE
 
-   python bayes.py classify <file> <doctype> <doctype> 
-   python bayes.py classify sampletest.txt spam ham
+   - python bayes.py classify <file> <doctype> <doctype> 
+   
+   - python bayes.py classify sampletest.txt spam ham
+   
     >> Probability that document is spam rather than ham is 0.90
