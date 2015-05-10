@@ -24,9 +24,9 @@ To test::
 
    python bayes.py learn <doctype> <file> <count>
 
-   e.g. - python bayes.py learn spam spam0.txt 1
+   e.g. - python bayes.py learn spam spam0.txt  1
    
-        - python bayes.py learn ham ham10.txt 2
+        - python bayes.py learn ham ham10.txt  2
 
 3. CLASSIFY A FILE
 
