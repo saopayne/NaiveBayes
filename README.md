@@ -31,4 +31,4 @@ To test::
 
    python bayes.py classify <file> <doctype> <doctype> 
    python bayes.py classify sampletest.txt spam ham
-    > Probability that document is spam rather than ham is 0.90
+    >> Probability that document is spam rather than ham is 0.90
