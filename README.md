@@ -22,7 +22,7 @@ To test::
 
 2. TRAINING THE ALGORITHM
 
-   python bayes.py learn "<doctype>" "<file>" "<count>"
+   python bayes.py learn "doctype" "file" "count"
 
    e.g.  - python bayes.py learn spam spam0.txt  1
    
@@ -30,7 +30,7 @@ To test::
 
 3. CLASSIFY A FILE
 
-   - python bayes.py classify "<file>" "<doctype>" "<doctype>" 
+   - python bayes.py classify "file" "doctype" "doctype" 
    
    - python bayes.py classify sampletest.txt spam ham
    
