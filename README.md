@@ -1,4 +1,4 @@
-Naive Bayes
+Naive Bayes :)
 
 
 Setting up the database for storage
